@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaat-Wok - Street Flavours, Wok Wonders.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #fce303;
+            color: #d11942;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 250px;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            font-size: 1.2em;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: left;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            color: #d11942;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li, .contact-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: #d11942;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .qr-code img {
+            max-width: 350px;
+            display: block;
+            margin: 0 auto;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #d11942;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="1000016571.jpg" alt="Chaat-Wok Logo">
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">Our Story</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="section">
+            <h2>Our Story</h2>
+            <p>At The Wok Stop, our passion is to bring the best of Chinese street food to you, with a unique Indian twist. We believe great food should be accessible, full of flavor, and always served with a smile. Every dish we serve is a reflection of our dedication to quality and our love for bold, exciting flavors.</p>
+        </section>
+
+        <section id="menu" class="section">
+            <h2>Our Delicious Menu</h2>
+            <p>All our dishes are made fresh to order with the finest ingredients. Please note: We are a takeaway-only food cart.</p>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="1000016559.png" alt="Manchurian">
+                    <h3>Manchurian</h3>
+                    <p>Our classic Manchurian balls are tossed in a rich, tangy gravy.</p>
+                    <p>Half: ₹10 | Full: ₹20</p>
+                </div>
+                <div class="menu-item">
+                    <img src="1000016561.png" alt="Steamed Momos">
+                    <h3>Steamed Momos</h3>
+                    <p>Soft, juicy, and packed with flavor, served with our signature chutney.</p>
+                    <p>Half: ₹15 | Full: ₹25</p>
+                </div>
+                <div class="menu-item">
+                    <img src="1000016562.png" alt="Fried Momos">
+                    <h3>Fried Momos</h3>
+                    <p>Crispy on the outside, tender on the inside, and full of flavor.</p>
+                    <p>Half: ₹20 | Full: ₹35</p>
+                </div>
+                <div class="menu-item">
+                    <img src="1000016563.png" alt="Fries">
+                    <h3>Fries</h3>
+                    <p>Golden, crispy, and perfectly salted. The ultimate snack.</p>
+                    <p>Half: ₹10 | Full: ₹20</p>
+                </div>
+                <div class="menu-item">
+                    <img src="1000016574.png" alt="Chinese Bhel">
+                    <h3>Chinese Bhel</h3>
+                    <p>A crispy, tangy, and spicy mix of fried noodles and secret sauces.</p>
+                    <p>Half: ₹10 | Full: ₹15</p>
+                </div>
+            </div>
+            <h3>Add-Ons</h3>
+            <p>Extra Sauce: ₹10</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Find Us & Follow Us</h2>
+            <p><strong>Hours:</strong><br>Monday to Sunday | 4:00 PM to 9:00 PM</p>
+            <p><strong>Contact Us:</strong></p>
+            <ul class="contact-info">
+                <li><a href="tel:7977025414">7977025414</a></li>
+                <li><a href="tel:7400454577">7400454577</a></li>
+                <li><a href="mailto:chaatwok@gmail.com">chaatwok@gmail.com</a></li>
+            </ul>
+            <p><strong>Location:</strong><br>[Your Specific Street, Market, or Area]</p>
+        </section>
+
+        <section class="section qr-code">
+            <h2>Easy UPI Payments</h2>
+            <p>Scan to pay with any UPI app.</p>
+            <img src="1000014304.png" alt="UPI QR Code">
+            <p style="text-align: center;">UPI ID: mitna742@okhdfcbank</p>
+        </section>
+
+        <section id="feedback" class="section">
+            <h2>We'd Love to Hear From You!</h2>
+            <p>Your feedback helps us make every dish even better. Please share your experience with us.</p>
+            <a href="[YourGoogleFormLink]" class="button">Give Feedback</a>
+        </section>
+
+    </div>
+
+</body>
+</html>
